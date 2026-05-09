@@ -1,7 +1,7 @@
 # Hi, I'm Prashant Singh 👋
 
 **Full Stack Developer** · React · Node.js · MongoDB · AWS  
-Currently at **Tech Mahindra** (BSNL Railway project) · Actively looking for my next challenge
+Currently at **Tech Mahindra** (BSNF Railway project) · Actively looking for my next challenge
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/prashant-singh-079237192/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/prashantsingh-codes)
