@@ -73,7 +73,7 @@ I build full-stack web apps with real features — real-time communication, WebR
 ---
 
 ### 🥗 Vitals — Daily Health & Nutrition Tracker
-> A full-stack health tracker built for people who eat Indian food and want to track macros, weight, and daily habits — without the complexity of mainstream fitness apps.
+> A full-stack health tracker built for people chasing fitness and want to track macros, weight, and daily habits — without the complexity of mainstream fitness apps.
 
 - 🎯 **Personalized macro targets** using Mifflin-St Jeor formula (fat loss / muscle gain)
 - 🥘 **Pre-loaded Indian foods** — dal, paneer, rice, oats, milk, soya, whey, eggs
