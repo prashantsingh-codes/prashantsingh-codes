@@ -34,14 +34,13 @@ I build full-stack web apps with real features — real-time communication, WebR
 **DevOps & Cloud**  
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 
 ---
 
 ## 💼 Featured Projects
 
 ### 💬 LiveChat — Real-time Chat & Video Calling App
-> A production-grade chat app with WebRTC video/audio calling, in-call messaging, and real-time socket communication.
+> A production-grade chat app with WebRTC video/audio calling, in-call messaging, and real-time socket communication. Deployed on AWS with a custom domain.
 
 - 🔴 **Live video & audio calls** using WebRTC + SimplePeer
 - 💬 **Real-time messaging** with Socket.io
@@ -50,8 +49,26 @@ I build full-stack web apps with real features — real-time communication, WebR
 - ☁️ **Deployed on AWS EC2** with GitHub Actions CI/CD pipeline
 - 📱 Responsive — works on mobile and desktop
 
-[![Client Repo](https://img.shields.io/badge/Client-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/prashantsingh-codes/live-chat-client)
-[![Server Repo](https://img.shields.io/badge/Server-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/prashantsingh-codes/live-chat-server)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-22c55e?style=for-the-badge&logo=googlechrome&logoColor=white)](https://livechat.lyxcorp.com/)
+[![Client Repo](https://img.shields.io/badge/Client_Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/prashantsingh-codes/live-chat-client)
+[![Server Repo](https://img.shields.io/badge/Server_Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/prashantsingh-codes/live-chat-server)
+
+---
+
+### 🛒 Forever — Full-Stack Fashion E-Commerce Platform
+> A complete end-to-end fashion store with a customer-facing storefront, a fully functional admin panel, and three payment methods — built from scratch without any e-commerce framework.
+
+- 👗 **Browse & filter** products by category, size, and price
+- 🛒 **Cart & checkout** with real order placement
+- 💳 **Three payment options** — Stripe, Razorpay, and Cash on Delivery
+- 🔐 **JWT-based auth** for customers with secure sessions
+- 🛠️ **Admin panel** — add/remove products, manage inventory, update order statuses
+- 📦 **Full order lifecycle** — placed → packed → shipped → delivered
+- ☁️ **Deployed on Vercel** (storefront + admin as separate apps)
+
+[![Live Store](https://img.shields.io/badge/Live_Store-22c55e?style=for-the-badge&logo=googlechrome&logoColor=white)](https://forever-frontend-ten-chi.vercel.app/)
+[![Admin Panel](https://img.shields.io/badge/Admin_Panel-f59e0b?style=for-the-badge&logo=googlechrome&logoColor=white)](https://forever-admin-one-sigma.vercel.app/)
+[![Repo](https://img.shields.io/badge/Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/prashantsingh-codes/ecommerce-app)
 
 ---
 
@@ -63,32 +80,16 @@ I build full-stack web apps with real features — real-time communication, WebR
 - ⚖️ **Weight tracking** with Chart.js line chart and weight prediction
 - 💧 **Health panel** — hydration, steps, BMI, weekly dashboard
 - 📅 **Log for any of the last 7 days** with cross-device sync
-- 🔄 **30-second background sync** keeps all devices in real-time
 - ☁️ **Deployed on Vercel** (frontend + serverless backend)
 
-[![Vitals Repo](https://img.shields.io/badge/Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/prashantsingh-codes/vitals-app)
-
----
-
-### 🛒 E-Commerce App
-> A full-stack e-commerce platform with product listings, cart, and order management.
-
-[![Ecommerce Repo](https://img.shields.io/badge/Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/prashantsingh-codes/ecommerce-app)
-
----
-
-## 📈 GitHub Stats
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=prashantsingh-codes&show_icons=true&theme=tokyonight&hide_border=true" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=prashantsingh-codes&layout=compact&theme=tokyonight&hide_border=true" height="160"/>
-</p>
+[![Live Demo](https://img.shields.io/badge/Live_Demo-22c55e?style=for-the-badge&logo=googlechrome&logoColor=white)](https://vitals-fitapp.vercel.app/)
+[![Repo](https://img.shields.io/badge/Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/prashantsingh-codes/vitals-app)
 
 ---
 
 ## 📫 Let's Connect
 
-I'm actively looking for **Full Stack / Frontend / Backend / MERN Stack** roles targeting **12 LPA+**.  
+I'm actively looking for **Full Stack / Frontend / Backend / MERN Stack** roles.  
 If you're hiring or know someone who is — let's talk.
 
 [![LinkedIn](https://img.shields.io/badge/Reach_me_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/prashant-singh-079237192/)
