@@ -32,6 +32,7 @@ I build full-stack web apps with real features — e-commerce platforms, course 
 
 **Database**  
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
 ![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat&logo=amazondynamodb&logoColor=white)
 
 **Auth & Payments**  
@@ -45,6 +46,9 @@ I build full-stack web apps with real features — e-commerce platforms, course 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 
+**AI & Integrations**  
+![Google Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white)
+
 ---
 
 ## 💼 Featured Projects
@@ -54,7 +58,7 @@ I build full-stack web apps with real features — e-commerce platforms, course 
 
 - 🔴 **Redis caching** — product and category data cached to reduce DB load and speed up repeat requests
 - 🛡️ **Rate limiting** via Express Rate Limiter — protects API endpoints from abuse and brute-force attacks
-- 🤖 **Gemini AI integration** — AI-powered product recommendations / search / descriptions using Google Gemini API
+- 🤖 **Gemini AI integration** — to analyze vendor sales data and generate automated executive summary insights for the admin dashboard
 - 👗 **Browse & filter** products by category, size, and price
 - 🛒 **Cart & checkout** with real order placement
 - 💳 **Three payment options** — Stripe, Razorpay, and Cash on Delivery
