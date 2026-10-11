@@ -10,7 +10,7 @@ Currently at **Tech Mahindra** (BSNF Railway project) · Actively looking for my
 
 ## 🚀 What I Build
 
-I build full-stack web apps with real features — real-time communication, WebRTC video calling, serverless cloud backends, REST APIs, CI/CD pipelines, and global CDN deployments. Course marketplaces, e-commerce platforms, hospital systems, and health trackers. Not todo apps.
+I build full-stack web apps with real features — e-commerce platforms, course marketplaces, hospital systems, health trackers, real-time communication, WebRTC video calling, serverless cloud backends, REST APIs, CI/CD pipelines, and global CDN deployments. Not to-do apps.
 
 ---
 
