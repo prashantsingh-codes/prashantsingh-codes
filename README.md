@@ -87,6 +87,41 @@ I build full-stack web apps with real features — real-time communication, WebR
 
 ---
 
+### 🏥 MediCare — Hospital Management System
+> A production-grade, 3-app healthcare platform — patient portal, admin control panel, and doctor self-service portal — with real-time appointment booking, Stripe online payments, Clerk authentication, and Cloudinary media management.
+
+- 👤 **Patient portal** — browse doctors, book appointments, pay online, track booking status
+- 🛡️ **Admin panel** — full CRUD for doctors & hospital services, appointment management, live KPI dashboard
+- 👨‍⚕️ **Doctor portal** — JWT-protected login, manage appointments, edit profile & schedule, toggle availability
+- 💳 **Stripe checkout** — session-based payments with success/cancel webhook handling
+- 🔐 **Dual auth system** — Clerk (patients & admin) + JWT (doctors) on a single backend
+- 📷 **Cloudinary CDN** — image upload & transformation for doctor and service photos
+- 🔍 **MongoDB text search** — full-text doctor & service discovery by name and specialization
+- ☁️ **Deployed on Vercel** — all 3 apps independently deployed with SPA routing configured
+
+[![Patient Portal](https://img.shields.io/badge/Patient_Portal-22c55e?style=for-the-badge&logo=googlechrome&logoColor=white)](https://hospital-management-system-cgus.vercel.app/)
+[![Admin Panel](https://img.shields.io/badge/Admin_Panel-845EF7?style=for-the-badge&logo=googlechrome&logoColor=white)](https://hospital-management-system-five-beryl.vercel.app/)
+[![Repo](https://img.shields.io/badge/Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/prashantsingh-codes/hospital-management-system)
+
+---
+
+### 🎓 LearnSphere — Cloud-Native Learning Management System
+> A production-grade, serverless LMS and course marketplace with direct-to-cloud video uploads, global CDN streaming, a full instructor studio, and a multi-step Stripe checkout — built on AWS Lambda, DynamoDB, S3, and CloudFront with a Next.js 16 frontend.
+
+- 🎬 **Direct-to-S3 video uploads** via presigned URLs — zero server memory usage for large video files
+- 🌐 **Global video streaming** via Amazon CloudFront CDN with byte-range scrubbing support
+- 📚 **Instructor Studio** — drag-and-drop curriculum builder, video uploader, revenue analytics, and course lifecycle (draft → publish → archive)
+- 🧑‍🎓 **Student experience** — course discovery with filters, 3-step Stripe checkout, auto-progress tracking (chapter marked complete at 80% watch time)
+- 🔐 **Role-based access control** via Clerk (student vs. teacher) with JWT-guarded API endpoints
+- ⚡ **Serverless backend** — Express 5 packaged with `serverless-http` and deployed as a Docker image on AWS Lambda via ECR
+- 🚀 **Zero-downtime CI/CD** — GitHub Actions auto-builds Docker image, pushes to Amazon ECR, and hot-swaps Lambda on every push to `main`
+- ☁️ **Deployed on Vercel** (frontend) + **AWS Lambda** (backend) + **Amazon DynamoDB** (database)
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-22c55e?style=for-the-badge&logo=googlechrome&logoColor=white)](https://learning-management-rho-peach.vercel.app/)
+[![Repo](https://img.shields.io/badge/Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/prashantsingh-codes/learning-management)
+
+---
+
 ## 📫 Let's Connect
 
 I'm actively looking for **Full Stack / Frontend / Backend / MERN Stack** roles.  
