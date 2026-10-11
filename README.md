@@ -10,17 +10,19 @@ Currently at **Tech Mahindra** (BSNF Railway project) · Actively looking for my
 
 ## 🚀 What I Build
 
-I build full-stack web apps with real features — real-time communication, WebRTC video calling, REST APIs, CI/CD pipelines, and cloud deployments. Not todo apps.
+I build full-stack web apps with real features — real-time communication, WebRTC video calling, serverless cloud backends, REST APIs, CI/CD pipelines, and global CDN deployments. Course marketplaces, e-commerce platforms, hospital systems, and health trackers. Not todo apps.
 
 ---
 
 ## 🛠️ Tech Stack
 
 **Frontend**  
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
 ![Redux](https://img.shields.io/badge/Redux-764ABC?style=flat&logo=redux&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)
 
 **Backend**  
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
@@ -30,14 +32,42 @@ I build full-stack web apps with real features — real-time communication, WebR
 
 **Database**  
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
+![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat&logo=amazondynamodb&logoColor=white)
+
+**Auth & Payments**  
+![Clerk](https://img.shields.io/badge/Clerk-6C47FF?style=flat&logo=clerk&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat&logo=stripe&logoColor=white)
 
 **DevOps & Cloud**  
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
+![AWS Lambda](https://img.shields.io/badge/AWS_Lambda-FF9900?style=flat&logo=awslambda&logoColor=white)
+![Amazon S3](https://img.shields.io/badge/Amazon_S3-569A31?style=flat&logo=amazons3&logoColor=white)
+![CloudFront](https://img.shields.io/badge/CloudFront-8C4FFF?style=flat&logo=amazon-aws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 
 ---
 
 ## 💼 Featured Projects
+
+### 🛒 Forever — Full-Stack Fashion E-Commerce Platform
+> A complete end-to-end fashion store with a customer-facing storefront, a fully functional admin panel, and three payment methods — built from scratch without any e-commerce framework.
+
+- 🔴 **Redis caching** — product and category data cached to reduce DB load and speed up repeat requests
+- 🛡️ **Rate limiting** via Express Rate Limiter — protects API endpoints from abuse and brute-force attacks
+- 🤖 **Gemini AI integration** — AI-powered product recommendations / search / descriptions using Google Gemini API
+- 👗 **Browse & filter** products by category, size, and price
+- 🛒 **Cart & checkout** with real order placement
+- 💳 **Three payment options** — Stripe, Razorpay, and Cash on Delivery
+- 🔐 **JWT-based auth** for customers with secure sessions
+- 🛠️ **Admin panel** — add/remove products, manage inventory, update order statuses
+- 📦 **Full order lifecycle** — placed → packed → shipped → delivered
+- ☁️ **Deployed on Vercel** (storefront + admin as separate apps)
+
+[![Live Store](https://img.shields.io/badge/Live_Store-22c55e?style=for-the-badge&logo=googlechrome&logoColor=white)](https://forever-frontend-ten-chi.vercel.app/)
+[![Admin Panel](https://img.shields.io/badge/Admin_Panel-f59e0b?style=for-the-badge&logo=googlechrome&logoColor=white)](https://forever-admin-one-sigma.vercel.app/)
+[![Repo](https://img.shields.io/badge/Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/prashantsingh-codes/ecommerce-app)
+
+---
 
 ### 💬 LiveChat — Real-time Chat & Video Calling App
 > A production-grade chat app with WebRTC video/audio calling, in-call messaging, and real-time socket communication. Deployed on AWS with a custom domain.
@@ -52,23 +82,6 @@ I build full-stack web apps with real features — real-time communication, WebR
 [![Live Demo](https://img.shields.io/badge/Live_Demo-22c55e?style=for-the-badge&logo=googlechrome&logoColor=white)](https://livechat.lyxcorp.com/)
 [![Client Repo](https://img.shields.io/badge/Client_Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/prashantsingh-codes/live-chat-client)
 [![Server Repo](https://img.shields.io/badge/Server_Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/prashantsingh-codes/live-chat-server)
-
----
-
-### 🛒 Forever — Full-Stack Fashion E-Commerce Platform
-> A complete end-to-end fashion store with a customer-facing storefront, a fully functional admin panel, and three payment methods — built from scratch without any e-commerce framework.
-
-- 👗 **Browse & filter** products by category, size, and price
-- 🛒 **Cart & checkout** with real order placement
-- 💳 **Three payment options** — Stripe, Razorpay, and Cash on Delivery
-- 🔐 **JWT-based auth** for customers with secure sessions
-- 🛠️ **Admin panel** — add/remove products, manage inventory, update order statuses
-- 📦 **Full order lifecycle** — placed → packed → shipped → delivered
-- ☁️ **Deployed on Vercel** (storefront + admin as separate apps)
-
-[![Live Store](https://img.shields.io/badge/Live_Store-22c55e?style=for-the-badge&logo=googlechrome&logoColor=white)](https://forever-frontend-ten-chi.vercel.app/)
-[![Admin Panel](https://img.shields.io/badge/Admin_Panel-f59e0b?style=for-the-badge&logo=googlechrome&logoColor=white)](https://forever-admin-one-sigma.vercel.app/)
-[![Repo](https://img.shields.io/badge/Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/prashantsingh-codes/ecommerce-app)
 
 ---
 
